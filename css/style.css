@@ -41,6 +41,12 @@ p {
 
 a {
     color: #42dca3;
+<<<<<<< HEAD
+=======
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+>>>>>>> origin/gh-pages
 }
 
 a:hover,
@@ -51,6 +57,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
+<<<<<<< HEAD
+=======
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+>>>>>>> origin/gh-pages
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #000;
@@ -96,6 +106,13 @@ a:focus {
     outline: 0;
 }
 
+<<<<<<< HEAD
+=======
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+>>>>>>> origin/gh-pages
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
@@ -106,6 +123,12 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
+<<<<<<< HEAD
+=======
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+>>>>>>> origin/gh-pages
     }
     .navbar-custom.top-nav-collapse {
         padding: 0;
@@ -169,6 +192,12 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
+<<<<<<< HEAD
+=======
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+>>>>>>> origin/gh-pages
 }
 
 .btn-circle:hover,
@@ -178,6 +207,57 @@ a:focus {
     background-color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+>>>>>>> origin/gh-pages
 .content-section {
     padding-top: 50px;
 }
@@ -191,7 +271,11 @@ a:focus {
     border: 5px solid #42dca3;
 }
 
+<<<<<<< HEAD
 .contact-section {
+=======
+.download-section {
+>>>>>>> origin/gh-pages
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -207,7 +291,11 @@ a:focus {
     .content-section {
         padding-top: 180px;
     }
+<<<<<<< HEAD
     .contact-section {
+=======
+    .download-section {
+>>>>>>> origin/gh-pages
         padding: 100px 0;
     }
 }
@@ -217,6 +305,12 @@ a:focus {
     text-transform: uppercase;
     font-family: Lora, "Helvetica Neue", '微軟正黑體', 'Microsoft JhengHei', Helvetica, Arial, sans-serif;
     font-weight: 400;
+<<<<<<< HEAD
+=======
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+>>>>>>> origin/gh-pages
 }
 
 .btn-default {
